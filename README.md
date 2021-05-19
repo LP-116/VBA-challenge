@@ -36,15 +36,15 @@ The code then applies the same principles to identify the greatest percentage in
 
 Once the code has been completed the results for each year appear as per below: 
 
-#  2014
+####  2014
 
 ![2014 results](https://user-images.githubusercontent.com/82348616/118746814-3e9fc880-b89c-11eb-8a6c-09307bd5e29c.PNG)
 
-#  2015
+####  2015
 
 ![2015 results](https://user-images.githubusercontent.com/82348616/118746828-4495a980-b89c-11eb-939c-7d0da0226e54.PNG)
 
-#  2016
+####  2016
 
 ![2016 results](https://user-images.githubusercontent.com/82348616/118746842-4bbcb780-b89c-11eb-8a8b-bedbad8dd693.PNG)
 
