@@ -7,18 +7,18 @@ The VBA script needs to output the below information for each year of data _(eac
   *	The ticker symbol
   *	The difference between the opening price and the closing price for each ticker
   *	The percentage change for the price difference
-  *	The total stock volume
+  *	The total stock volume for each ticker
 
 Conditional formatting also needs to be applied that highlights positive changes in green and negative changes in red.
 
-For the bonus section of the task, the below information was output:
+For the bonus section of the task, the script needs to output the below information:
   *	The ticker with the greatest percentage increase
   * The ticker with the greatest percentage decrease
   *	The ticker with the greatest total volume
 
 ### Method overview
 
-To generate a list of ticker symbols the code goes through the years data and identifies where a change occurs in the ticker name column. When a change occurs (i.e. the start of a new ticker is identified), the result is printed in the summary table section. The same method is used to find the closing price for each ticker. The code compares the first ticker line to the line underneath it to identify the change.
+To generate a list of ticker symbols the code goes through the years data and identifies where a change occurs in the ticker name column. When a change occurs (i.e. the start of a new ticker is identified), the result is printed in the summary table section. The code compares the first ticker line to the line underneath it to identify a change in the ticker. Once the change is detected, the last row of the ticker section is identified and therefore we can use the same method to find the closing price for each ticker.
 
 To identify the opening price the code again looks for a change in ticker symbol, however, because we want the first row in the data and not the last row in the data, the code identifies the change in reverse. The code compares the first ticker row with the line above it to identify the change.
 
@@ -55,9 +55,5 @@ To run the code please use: _VBA challenge finished code.vb_
 Also included:
 VBA testing – includes the ‘test data spreadsheet’ and the code used to develop/test.
 Screenshots – includes screenshots of the results.
-
-
-
-
 
 
