@@ -1,5 +1,5 @@
 # VBA Challenge
-## VBA Homework - The VBA of Wall Street
+## The VBA of Wall Street
 
 ### Task
 To use VBA scripting to analyse stock market data.
